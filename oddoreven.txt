@@ -1,0 +1,21 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                        read -p "Enter a number: " number
+if [ $((number%2)) -eq 0 ]
+then
+23s-Mac-mini:Desktop mca$ vim evenorodd.sh
+MES23s-Mac-mini:Desktop mca$ chmod +x evenorodd.sh
+MES23s-Mac-mini:Desktop mca$ ./evenorodd.sh
+Enter a number: 3
+Number is odd.
+
+
+
+
+
+
+
+output:
+MES23s-Mac-mini:Desktop mca$ vim evenorodd.sh
+MES23s-Mac-mini:Desktop mca$ chmod +x evenorodd.sh
+MES23s-Mac-mini:Desktop mca$ ./evenorodd.sh
+Enter a number: 3    
+Number is odd.

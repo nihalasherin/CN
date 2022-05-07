@@ -1,0 +1,12 @@
+a=10
+b=20
+c=5
+d=6
+echo $(( $a * 20 - $b * 2 + $c / $d ))                                    
+
+
+output:
+MES23s-Mac-mini:Desktop mca$ vim exprsn.sh
+MES23s-Mac-mini:Desktop mca$ chmod +x exprsn.sh
+MES23s-Mac-mini:Desktop mca$ ./exprsn.sh
+160
