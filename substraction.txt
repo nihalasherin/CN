@@ -1,0 +1,16 @@
+function sub()
+{
+        (( m= $1-$2 - $3 ))
+        echo "difference is $m"
+}
+a=30
+b=10
+c=10
+sub $a $b $c
+
+
+
+output:
+MES8s-Mac-mini:desktop mca$ chmod +x sub.sh
+MES8s-Mac-mini:desktop mca$ ./sub.sh
+difference is 10

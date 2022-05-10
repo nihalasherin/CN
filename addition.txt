@@ -1,0 +1,14 @@
+function add()
+{
+        ((m = $1+$2+$3 ))
+        echo "sum is $m"
+}
+a=5
+b=5
+c=5
+add $a $b $c
+
+output:
+MES8s-Mac-mini:desktop mca$ chmod +x addition.sh
+MES8s-Mac-mini:desktop mca$ ./addition.sh
+sum is 15

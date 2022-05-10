@@ -1,0 +1,19 @@
+function multiplication()
+{
+        j=$1
+        k=$2
+        l=$3
+        ((i=$1*$2*$3))
+        echo "answer is : $i"
+}
+a=6
+b=9
+c=5
+multiplication $a $b $c
+
+
+
+output:
+MES8s-Mac-mini:desktop mca$ chmod +x multi.sh
+MES8s-Mac-mini:desktop mca$ ./multi.sh
+answer is : 270

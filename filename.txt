@@ -1,0 +1,15 @@
+echo -e "enter the filename: \c"
+read filename
+if [ -e $filename ]
+then
+        echo "$filename found"
+else
+        echo "$filename not found "
+fi
+
+output:
+MES8s-Mac-mini:desktop mca$ vim file.sh
+MES8s-Mac-mini:desktop mca$ chmod +x file.sh
+MES8s-Mac-mini:desktop mca$ ./file.sh
+enter the filename: xxx
+xxx not found 
