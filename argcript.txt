@@ -1,0 +1,16 @@
+PROGRAM
+
+
+#!bin/bash
+echo "First parameter is $1"
+echo "Second parameter is $2"
+echo "Third parameter is $3"
+
+
+OUTPUT
+./argcript.sh 2 233 56
+First parameter is 2
+Second parameter is 233
+Third parameter is 56
+
+
